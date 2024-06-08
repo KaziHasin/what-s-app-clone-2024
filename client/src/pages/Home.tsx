@@ -1,6 +1,9 @@
-const Home = () => {
+import { FC } from 'react';
+import LoginScreen from "../components/LoginScreen"
+
+const Home: FC = () => {
     return (
-        <div>Home</div>
+        <LoginScreen />
     )
 }
 
